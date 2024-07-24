@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class ReverseArray {
     public static List<Integer> reverseArray(List<Integer> a) {
         System.out.println("input ");
         System.out.println(a);
