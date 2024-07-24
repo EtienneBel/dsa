@@ -8,8 +8,7 @@ The javac command stands for Java Compiler.
 - If the compilation is successful, it will produce a bytecode file named <Class>.class
 
 ```bash
-  java <Class> 
+  java <Class>.java
 ```
 - This command runs the compiled Java bytecode file.
 - The java command invokes the Java Virtual Machine (JVM) to execute the bytecode contained in the <Class>.class file.
-- Note that you should not include the .class extension when running the bytecode file; just use the class name.
