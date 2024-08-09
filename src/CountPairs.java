@@ -19,6 +19,14 @@ public class CountPairs {
         return numberOfPairs;
     }
 
+//    Optimized Approach with Binary Search
+//    public int countPairsUsingBinarySearch(List<Integer> nums, int target) {
+//        Collections.sort(nums);
+//        for(int i=0; i<nums.size(); i++){
+//
+//        }
+//    }
+
     @Test
     public void testCountPairs() {
         List<Integer> nums = Arrays.asList(-6, 2, 5, -2, -7, -1, 3);
